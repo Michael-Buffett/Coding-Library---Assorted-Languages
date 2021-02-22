@@ -1,2 +1,54 @@
 #GitCommands
 <!git clone [HTTPS link] <-- This will be what you use to copy a repository>
+
+
+
+<!HTML dropdown Javascript only 1-10>
+
+for(var i=1; i<=10; i++){
+    var select = document.getElementById("hours");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+}
+
+
+<!Span multi thumb slider. This is cool, and could be a great way to get them to represent how important specific things are to themhttps://css-tricks.com/lets-make-a-multi-thumb-slider-that-calculates-the-width-between-thumbs/
+
+
+<!This is the HTML from the first interesing test I did for the IBM Cloud Computing Full-Stack Programming Course>
+
+<!---------------Froms--------------->
+
+<!doctype html>
+    <title>Simple Interest Calculator</title>
+    <head>
+    <script src="script.js"></script>
+        <! This document uses a serperate file for javascript code>
+    <link rel="stylesheet" href="style.css">
+        <! This docuemnt uses a serperate file for the .css style sheets>
+    </head>
+    <div class="maindiv">
+        <h1>Simple Interest Calculator</h1>
+        Amount <input type="number" id="principal" min="0"> <br/>
+        Rate <input type="range" class="range" id="rate" min="1" step="0.25" max="20"><span>10.25</span><br/>
+        No. of Years
+             <select id = "years">
+               <option value = "1">1</option>
+               <option value = "2">2</option>
+               <option value = "3">3</option>
+               <option value = "4">4</option>
+               <option value = "5">5</option>
+               <option value = "6">6</option>
+               <option value = "7">7</option>
+               <option value = "8">8</option>
+               <option value = "9">9</option>
+               <option value = "10">10</option>
+             </select><br>
+        Interest <input type="number" min="1" max="100" value="1">
+        <br><br>
+        <button onclick="compute()">Compute Interest</button><span> result</span>
+    </div>
+    <footer>© Everyone Can Get Rich</footer>
+</html>
