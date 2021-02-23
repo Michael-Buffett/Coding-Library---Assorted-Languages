@@ -1,6 +1,10 @@
 #GitCommands
 <!git clone [HTTPS link] <-- This will be what you use to copy a repository>
-
+<!git clone [HTTPS link] <-- This will be what you use to copy a repository>
+<!git clone [HTTPS link] <-- This will be what you use to copy a repository>
+<!git clone [HTTPS link] <-- This will be what you use to copy a repository>
+<!git clone [HTTPS link] <-- This will be what you use to copy a repository>
+<!git clone [HTTPS link] <-- This will be what you use to copy a repository>
 
 
 <!HTML dropdown Javascript only 1-10>
@@ -13,19 +17,14 @@ for(var i=1; i<=10; i++){
 	option.value = i;
 }
 
-
-<!Span multi thumb slider. This is cool, and could be a great way to get them to represent how important specific things are to themhttps://css-tricks.com/lets-make-a-multi-thumb-slider-that-calculates-the-width-between-thumbs/
+<!Span multi thumb slider. This is cool, and could be a great way to get them to represent how important specific things are to them>
+https://css-tricks.com/lets-make-a-multi-thumb-slider-that-calculates-the-width-between-thumbs/
 
 
 <!This is the HTML from the first interesing test I did for the IBM Cloud Computing Full-Stack Programming Course>
 
 
-
-
 <!---------------Froms--------------->
-
-
-
 
 
 <!doctype html>
@@ -38,9 +37,11 @@ for(var i=1; i<=10; i++){
     </head>
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
-        Amount <input type="number" id="principal" min="0"> <br/>
-        Rate <input type="range" class="range" id="rate" min="1" step="0.25" max="20"><span>10.25</span><br/>
-        No. of Years
+        <label for="amount">Amount:</label> 
+        <input type="number" id="principal" min="0"> <br/>
+        <label for="rate">Rate:</label> 
+        <input type="range" class="range" id="rate" min="1" step="0.25" max="20"><span>10.25</span><br/>
+        <label for="years">No. of Years:</label> 
              <select id = "years">
                <option value = "1">1</option>
                <option value = "2">2</option>
@@ -53,13 +54,14 @@ for(var i=1; i<=10; i++){
                <option value = "9">9</option>
                <option value = "10">10</option>
              </select><br>
-        Interest <input type="number" min="1" max="100" value="1">
-        <br><br>
+        <label for="interest">Interest:</label> 
+             <input type="number" min="1" max="100" value="1">
+             <br><br>
         <button onclick="compute()">Compute Interest</button><span> result</span>
+        <br><br>
         <footer>© Everyone Can Get Rich</footer>
     </div>
 </html>
-
 
 
 
