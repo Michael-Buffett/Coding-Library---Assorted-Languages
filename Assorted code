@@ -73,6 +73,7 @@ for(var i=1; i<=10; i++){
 
 /* This is the main .css style for all sites */
 
+
 body 
     {
     background-color:Black; 
@@ -84,12 +85,15 @@ h1
     {
     color:grey; 
     font:verdana;
+    text-align: center;
+    font-size:25px;
     }
 
 /* to specify a class to be effected, use this type of code .divclass */
 
 .maindiv 
     { 
+    text-indent: 10px;
     margin:0 auto;
     background-color:white; 
     color:Black; 
@@ -99,7 +103,13 @@ h1
     border-radius:25px;
     }
 
+/* to align a form */
 
+    label
+    {
+    width:100px;
+    display: inline-block;
+    } 
 
 
 
