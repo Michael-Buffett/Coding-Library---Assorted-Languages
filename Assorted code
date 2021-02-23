@@ -19,7 +19,14 @@ for(var i=1; i<=10; i++){
 
 <!This is the HTML from the first interesing test I did for the IBM Cloud Computing Full-Stack Programming Course>
 
+
+
+
 <!---------------Froms--------------->
+
+
+
+
 
 <!doctype html>
     <title>Simple Interest Calculator</title>
@@ -49,6 +56,51 @@ for(var i=1; i<=10; i++){
         Interest <input type="number" min="1" max="100" value="1">
         <br><br>
         <button onclick="compute()">Compute Interest</button><span> result</span>
+        <footer>© Everyone Can Get Rich</footer>
     </div>
-    <footer>© Everyone Can Get Rich</footer>
 </html>
+
+
+
+
+
+<!---------------.css stylesheet for calcualtor--------------->
+
+
+
+
+/* This stylesheet is for the simple interest calculator */
+
+/* This is the main .css style for all sites */
+
+body 
+    {
+    background-color:Black; 
+    color:white; 
+    font:arial;
+    }
+
+h1
+    {
+    color:grey; 
+    font:verdana;
+    }
+
+/* to specify a class to be effected, use this type of code .divclass */
+
+.maindiv 
+    { 
+    margin:0 auto;
+    background-color:white; 
+    color:Black; 
+    font:arial;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    }
+
+
+
+
+
+
