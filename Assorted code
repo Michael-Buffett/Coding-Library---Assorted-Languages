@@ -150,7 +150,7 @@ function compute()
     var p = document.getElementById("principal").value;
     var r = document.getElementById("rate").value;
     var y = document.getElementById("years").value;
-    var i = principal * years * rate / 100;
+    var i = math.(p * y * r / 100);
     var t = new Date();
         document.getElementById("demo").innerHTML = d.getFullYear();
     var futuredate = today + years;
