@@ -114,3 +114,52 @@ h1
 
 
 
+<!---------------.js for computation--------------->
+
+
+
+function compute()
+{
+    p = document.getElementById("principal").value;
+    
+    //. first create all of the variables //
+    
+    var principal = principal;
+    var rate = rate;
+    var years = years;
+    var interest = amount * years * rate / 100;
+    var today = new Date();
+        document.getElementById("demo").innerHTML = d.getFullYear();
+    var futuredate = today + years;
+
+   //if you deposited "amount"
+   //at an interest rate of "rate"
+   //you'll recieve the amount of "interest"
+   //in the year "futuredate"
+
+
+
+//.or this??//
+<!---------------.js for computation--------------->
+
+
+
+function compute()
+{
+    var p = document.getElementById("principal").value;
+    var r = document.getElementById("rate").value;
+    var y = document.getElementById("years").value;
+    var i = principal * years * rate / 100;
+    var t = new Date();
+        document.getElementById("demo").innerHTML = d.getFullYear();
+    var futuredate = today + years;
+    var slide = document.getElementById("rate").value
+
+   //if you deposited "p"
+   //at an interest rate of "r"
+   //you'll recieve the amount of "i"
+   //in the year "futuredate"
+   
+
+
+
