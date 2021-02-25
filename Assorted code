@@ -149,6 +149,30 @@ let = variable (or let ___ be) <-- this is the new way of coding variables, and 
 Const = variable (let ___ be constant) <-- this is the new way of coding variables, and they can NOT be adjusted later in the code
 
 
+//    Basic
+
+let sale = true
+sale = false
+if (sale)
+{
+  console.log('Time to buy!')
+}
+
+//  This is an if...esle statement
+
+let hungerLevel = 7;
+
+if (hungerLevel > 7){
+  console.log('Time to eat!');
+}
+else {
+  console.log ('We can eat later!')
+  }
+
+
+
+// Interest Calculator
+
 function compute()
 {
     var p = document.getElementById("principal").value;
