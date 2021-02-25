@@ -23,8 +23,9 @@ https://css-tricks.com/lets-make-a-multi-thumb-slider-that-calculates-the-width-
 <!This is the HTML from the first interesing test I did for the IBM Cloud Computing Full-Stack Programming Course>
 
 
-<!---------------Froms--------------->
+<!---------------HTML--------------->
 
+// this is a simple form
 
 <!doctype html>
     <title>Simple Interest Calculator</title>
@@ -65,9 +66,9 @@ https://css-tricks.com/lets-make-a-multi-thumb-slider-that-calculates-the-width-
 
 
 
-<!---------------.css stylesheet for calcualtor--------------->
+<!---------------CSS stylesheets--------------->
 
-
+// this is a basic design for the calculator above.
 
 
 /* This stylesheet is for the simple interest calculator */
@@ -141,8 +142,11 @@ function compute()
 
 
 //.or this??//
-<!---------------.js for computation--------------->
+<!---------------Javascript--------------->
 
+var = variable
+let = variable (or let ___ be) <-- this is the new way of coding variables, and they can be adjusted later in the code
+Const = variable (let ___ be constant) <-- this is the new way of coding variables, and they can NOT be adjusted later in the code
 
 
 function compute()
